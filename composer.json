@@ -1,0 +1,10 @@
+{
+    "name": "dara/azimute",
+    "authors": [
+        {
+            "name": "Dara Oladosu",
+            "email": "daradosu@gmail.com"
+        }
+    ],
+    "require": {}
+}
