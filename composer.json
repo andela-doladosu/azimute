@@ -9,5 +9,10 @@
     "require": {
         "guzzlehttp/guzzle": "^6.3",
         "vlucas/phpdotenv": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "XmlTime\\": "src/"
+        }
     }
 }
