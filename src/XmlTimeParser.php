@@ -20,11 +20,10 @@ class XmlTimeParser
         $locationData['country'] = $geo['country'];
         $locationData['latitude'] = $geo['latitude'];
         $locationData['longitude'] = $geo['longitude'];
-        $locationData['celestialBody'] = $astro['@attributes']['name'];
 
 
-        if (!empty($locationData['celestialBody'])
-            && $locationData['celestialBody'] === 'sun'
+        if (!empty($astro['@attributes']['name'])
+            && $astro['@attributes']['name'] === 'sun'
         ) {
             foreach ($astro['event'] as $event) {
 
